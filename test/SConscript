@@ -38,7 +38,7 @@ testrunner = env.Program("test",
              GetTestFiles([
                 #  "#Core",
                 #  "#Event",
-                #  "#RPC",
+                 "#RPC",
                 #  "#Protocol",
                 #  "#Tree",
                 #  "#Client",
