@@ -28,13 +28,13 @@ def GetTestFiles(src_dirs, variant_dir):
 testrunner = env.Program("test",
             (["TestRunner.cc", "gtest-all.o"] +
              object_files['Server'] +
-            #  object_files['Storage'] +
-            #  object_files['Client'] +
-            #  object_files['Tree'] +
-            #  object_files['Protocol'] +
-            #  object_files['RPC'] +
-            #  object_files['Event'] +
-            #  object_files['Core'] +
+             object_files['Storage'] +
+             object_files['Client'] +
+             object_files['Tree'] +
+             object_files['Protocol'] +
+             object_files['RPC'] +
+             object_files['Event'] +
+             object_files['Core'] +
              GetTestFiles([
                 #  "#Core",
                 #  "#Event",
